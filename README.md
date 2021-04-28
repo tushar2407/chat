@@ -18,5 +18,12 @@ $ python3 manage.py shell
 {'type': 'hello'}
 ```
 
+## Testing the application
+```
+$ python manage.py test main.tests
+```
+    Pre-requisites : 
+        Make sure you have chrome driver installed before testing.
+        https://sites.google.com/a/chromium.org/chromedriver/home
 # References :
 - https://channels.readthedocs.io/en/stable/tutorial/part_2.html
